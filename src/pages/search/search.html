@@ -1,0 +1,31 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>Search</ion-title>
+    <ion-buttons end>
+    <button class="right" ion-button (click)="Contact()"> Contact </button> 
+    </ion-buttons>   
+    </ion-navbar>
+                                       
+  </ion-header>
+  
+  <ion-content padding>
+    <p>
+      Dit is de search pagina 
+       <ion-searchbar (input)="onSearchInput()"></ion-searchbar>    
+<ion-item>
+  <ion-label>Ingredients</ion-label>
+  <ion-select [(ngModel)]="toppings" multiple="true">
+    <ion-option>milk and stuff</ion-option>
+    <ion-option>meat and stuff</ion-option>
+    <ion-option>fruits</ion-option>
+    <ion-option>vegetables</ion-option>
+    <ion-option>water and stuff</ion-option>
+  </ion-select>
+</ion-item>
+    </p>
+  
+    <button ion-button secondary menuToggle>Toggle Menu</button>
+  </ion-content>

@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Voedingsmiddelenlijst</ion-title>
+    <ion-buttons end>
+    <button class="right" ion-button (click)="Contact()"> Contact </button> 
+    </ion-buttons>  
+  </ion-navbar>
+                                      
+</ion-header>
+
+<ion-content padding>
+  <p> Hier een lijst van voedingsmiddelen die zwangeren vrouwen
+    best niet consumeren.  
+  Filteren op producten die risico geven op:
+</p>
+<ion-list>
+    <ion-item-group *ngFor="let option of options">
+        <ion-checkbox>{{option.name}}</ion-checkbox>
+        <ion-item *ngFor="let food of foods | riskFilter:{attrs:option.name}">
+        {{food.name}} {{food.alternative}}
+        </ion-item>
+    </ion-item-group>
+</ion-list>
+</ion-content>

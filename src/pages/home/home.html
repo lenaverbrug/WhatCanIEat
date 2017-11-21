@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+    <ion-buttons end>
+    <button class="right" ion-button (click)="Contact()"> Contact </button> 
+    </ion-buttons>
+  </ion-navbar>
+  
+  
+             
+</ion-header>
+
+<ion-content padding>
+  <h3>What can I eat?</h3>
+
+  //TODO: Inleiding
+  <p>
+    Hieronder kan je je registreren of aanmelden.
+  </p>
+
+  <ion-content padding>
+    <button ion-button (click)="Register()"> Register </button>
+    <button ion-button (click)="Login()"> Login </button>
+  </ion-content>
+  <button ion-button secondary menuToggle>Toggle Menu</button>
+</ion-content>

@@ -1,0 +1,22 @@
+C:\Users\Mo\OneDrive\Schooljaar 2017-2018\ASP core backend\AspIdentityServer\AspIdentityServer\bin\Debug\netcoreapp2.0\AspIdentityServer.deps.json
+C:\Users\Mo\OneDrive\Schooljaar 2017-2018\ASP core backend\AspIdentityServer\AspIdentityServer\bin\Debug\netcoreapp2.0\AspIdentityServer.runtimeconfig.json
+C:\Users\Mo\OneDrive\Schooljaar 2017-2018\ASP core backend\AspIdentityServer\AspIdentityServer\bin\Debug\netcoreapp2.0\AspIdentityServer.runtimeconfig.dev.json
+C:\Users\Mo\OneDrive\Schooljaar 2017-2018\ASP core backend\AspIdentityServer\AspIdentityServer\bin\Debug\netcoreapp2.0\AspIdentityServer.dll
+C:\Users\Mo\OneDrive\Schooljaar 2017-2018\ASP core backend\AspIdentityServer\AspIdentityServer\obj\Debug\netcoreapp2.0\AspIdentityServer.csprojResolveAssemblyReference.cache
+C:\Users\Mo\OneDrive\Schooljaar 2017-2018\ASP core backend\AspIdentityServer\AspIdentityServer\obj\Debug\netcoreapp2.0\AspIdentityServer.csproj.CoreCompileInputs.cache
+C:\Users\Mo\OneDrive\Schooljaar 2017-2018\ASP core backend\AspIdentityServer\AspIdentityServer\obj\Debug\netcoreapp2.0\AspIdentityServer.AssemblyInfoInputs.cache
+C:\Users\Mo\OneDrive\Schooljaar 2017-2018\ASP core backend\AspIdentityServer\AspIdentityServer\obj\Debug\netcoreapp2.0\AspIdentityServer.AssemblyInfo.cs
+C:\Users\Mo\OneDrive\Schooljaar 2017-2018\ASP core backend\AspIdentityServer\AspIdentityServer\bin\Debug\netcoreapp2.0\AspIdentityServer.pdb
+C:\Users\Mo\OneDrive\Schooljaar 2017-2018\ASP core backend\AspIdentityServer\AspIdentityServer\obj\Debug\netcoreapp2.0\AspIdentityServer.dll
+C:\Users\Mo\OneDrive\Schooljaar 2017-2018\ASP core backend\AspIdentityServer\AspIdentityServer\obj\Debug\netcoreapp2.0\AspIdentityServer.pdb
+D:\sanjeyan\Documents\Elektronica-ICT_3de_jaar\Semester_1\Cloud_Applications\Projecten\Mo_\backendASPCoreIdentity\AspIdentityServer\bin\Debug\netcoreapp2.0\AspIdentityServer.deps.json
+D:\sanjeyan\Documents\Elektronica-ICT_3de_jaar\Semester_1\Cloud_Applications\Projecten\Mo_\backendASPCoreIdentity\AspIdentityServer\bin\Debug\netcoreapp2.0\AspIdentityServer.runtimeconfig.json
+D:\sanjeyan\Documents\Elektronica-ICT_3de_jaar\Semester_1\Cloud_Applications\Projecten\Mo_\backendASPCoreIdentity\AspIdentityServer\bin\Debug\netcoreapp2.0\AspIdentityServer.runtimeconfig.dev.json
+D:\sanjeyan\Documents\Elektronica-ICT_3de_jaar\Semester_1\Cloud_Applications\Projecten\Mo_\backendASPCoreIdentity\AspIdentityServer\bin\Debug\netcoreapp2.0\AspIdentityServer.dll
+D:\sanjeyan\Documents\Elektronica-ICT_3de_jaar\Semester_1\Cloud_Applications\Projecten\Mo_\backendASPCoreIdentity\AspIdentityServer\bin\Debug\netcoreapp2.0\AspIdentityServer.pdb
+D:\sanjeyan\Documents\Elektronica-ICT_3de_jaar\Semester_1\Cloud_Applications\Projecten\Mo_\backendASPCoreIdentity\AspIdentityServer\obj\Debug\netcoreapp2.0\AspIdentityServer.csprojResolveAssemblyReference.cache
+D:\sanjeyan\Documents\Elektronica-ICT_3de_jaar\Semester_1\Cloud_Applications\Projecten\Mo_\backendASPCoreIdentity\AspIdentityServer\obj\Debug\netcoreapp2.0\AspIdentityServer.csproj.CoreCompileInputs.cache
+D:\sanjeyan\Documents\Elektronica-ICT_3de_jaar\Semester_1\Cloud_Applications\Projecten\Mo_\backendASPCoreIdentity\AspIdentityServer\obj\Debug\netcoreapp2.0\AspIdentityServer.AssemblyInfoInputs.cache
+D:\sanjeyan\Documents\Elektronica-ICT_3de_jaar\Semester_1\Cloud_Applications\Projecten\Mo_\backendASPCoreIdentity\AspIdentityServer\obj\Debug\netcoreapp2.0\AspIdentityServer.AssemblyInfo.cs
+D:\sanjeyan\Documents\Elektronica-ICT_3de_jaar\Semester_1\Cloud_Applications\Projecten\Mo_\backendASPCoreIdentity\AspIdentityServer\obj\Debug\netcoreapp2.0\AspIdentityServer.dll
+D:\sanjeyan\Documents\Elektronica-ICT_3de_jaar\Semester_1\Cloud_Applications\Projecten\Mo_\backendASPCoreIdentity\AspIdentityServer\obj\Debug\netcoreapp2.0\AspIdentityServer.pdb

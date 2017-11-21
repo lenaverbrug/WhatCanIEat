@@ -1,0 +1,28 @@
+page-register {
+    .scroll-content {
+        align-content: center;
+        display: flex;
+        flex-direction: columns;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .ion-content {
+        box-shadow: none;
+        border-radius: 5px;
+    }
+    
+    p {
+        color: #fff;
+    }
+
+    .list > .item-block:first-child {
+        border: medium none;
+    }
+
+    .item, button {
+        margin-bottom: 10 px;
+        border: medium none;
+        background: rgba(255, 255, 255, 0.5);
+    }
+}
