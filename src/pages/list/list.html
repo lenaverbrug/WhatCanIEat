@@ -10,8 +10,8 @@
   </ion-navbar>                              
 </ion-header>
 
-<ion-content padding>
-  <p> hieronder vind je een onderverdeling terug van de verschillende risico's waarmee een zwangere vrouw rekening moet houden.</p>
+<ion-content>
+  <p> hieronder vind je een onderverdeling terug van de verschillende risico's <br> waarmee een zwangere vrouw rekening moet houden.</p>
     <ion-segment [(ngModel)]="risksFood">
       <ion-segment-button value="toxoplasmose">
         Toxoplasmose
@@ -132,7 +132,7 @@
         <p>kraanwater uit loden leidingen</p>
       </ion-item>
     </ion-list>
-    
+
     <ion-list *ngSwitchCase="'overig'">
       <ion-item>
         <h2>Vitamine A is een vetoplosbare vitamine. Bij een zwangere vrouw kan het teveel aan vitamine A het risico op afwijkingen bij de foetus veroorzaken.</h2>
@@ -165,4 +165,5 @@
         <p> > 1 glas dranken met kinine, zoals tonic, bitter lemon : risico op schade aan de foetus</p>
       </ion-item>
     </ion-list>
+    </div>
 </ion-content>

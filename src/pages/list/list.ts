@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import {ContactPage} from '../contact/contact';
-import { NgModule }      from '@angular/core';
+import { NgModule } from '@angular/core';
 
 @Component({
   selector: 'page-list',
