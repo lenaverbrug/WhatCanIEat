@@ -10,11 +10,9 @@ import { RegisterPage } from '../pages/register/register';
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { SearchPage } from '../pages/search/search';
-import { RiskFilterPipe } from '../pipes/riskFilter/riskFilter';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { PipesModule } from '../pipes/pipes.module';
 
 @NgModule({
   declarations: [
@@ -25,8 +23,7 @@ import { PipesModule } from '../pipes/pipes.module';
     RegisterPage,
     AboutPage,
     ContactPage,
-    SearchPage,
-    RiskFilterPipe
+    SearchPage
   ],
   imports: [
     BrowserModule,
@@ -45,9 +42,8 @@ import { PipesModule } from '../pipes/pipes.module';
   ],
   providers: [
     StatusBar,
-    RiskFilterPipe,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
-  ]
+  ],
 })
 export class AppModule {}

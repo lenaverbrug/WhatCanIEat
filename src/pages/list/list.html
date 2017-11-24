@@ -7,21 +7,162 @@
     <ion-buttons end>
     <button class="right" ion-button (click)="Contact()"> Contact </button> 
     </ion-buttons>  
-  </ion-navbar>
-                                      
+  </ion-navbar>                              
 </ion-header>
 
 <ion-content padding>
-  <p> Hier een lijst van voedingsmiddelen die zwangeren vrouwen
-    best niet consumeren.  
-  Filteren op producten die risico geven op:
-</p>
-<ion-list>
-    <ion-item-group *ngFor="let option of options">
-        <ion-checkbox>{{option.name}}</ion-checkbox>
-        <ion-item *ngFor="let food of foods | riskFilter:{attrs:option.name}">
-        {{food.name}} {{food.alternative}}
-        </ion-item>
-    </ion-item-group>
-</ion-list>
+  <p> hieronder vind je een onderverdeling terug van de verschillende risico's waarmee een zwangere vrouw rekening moet houden.</p>
+    <ion-segment [(ngModel)]="risksFood">
+      <ion-segment-button value="toxoplasmose">
+        Toxoplasmose
+      </ion-segment-button>
+      <ion-segment-button value="listeriose">
+        Listeriose
+      </ion-segment-button>
+      <ion-segment-button value="salmonella">
+        Salmonella
+      </ion-segment-button>
+      <ion-segment-button value="zwareMetalen">
+        Zware Metalen
+      </ion-segment-button>
+      <ion-segment-button value="overig">
+        Overig
+      </ion-segment-button>
+    </ion-segment>
+      
+  <div [ngSwitch]="risksFood">
+    <ion-list *ngSwitchCase="'toxoplasmose'">
+      <ion-item>
+        <p>Toxoplasmose is een infectieziekte, die veroorzaakt wordt door een parasiet.</p>
+      </ion-item>
+      <ion-item>
+        <p>rauwe/ongeschilde groenten en fruit</p>
+      </ion-item>
+      <ion-item>
+        <p>rauwe/niet volledig gaar vlees en vleeswaren</p>
+      </ion-item>
+      <ion-item>
+        <p>niet-voorverpakte vleeswaren</p>
+      </ion-item>
+      <ion-item>
+        <p>artisanaal gerookt, gemarineerd of gezouten vlees</p>
+      </ion-item>
+    </ion-list>
+      
+    <ion-list *ngSwitchCase="'listeriose'">
+      <ion-item>
+        <p>Listeriose is een infectieziekte, veroorzaakt door een darmbacterie.</p>
+      </ion-item>
+      <ion-item>
+        <p>rauwe melk</p>
+      </ion-item>
+      <ion-item>
+        <p>zachte kaas op basis van rauwe melk</p>
+      </ion-item>
+      <ion-item>
+        <p>rauwe eieren</p>
+      </ion-item>
+      <ion-item>
+        <p>rauwe/niet volledig gaar vlees en vleeswaren</p>
+      </ion-item>
+      <ion-item>
+        <p>niet-voorverpakte vleeswaren</p>
+      </ion-item>
+      <ion-item>
+        <p>artisanaal gerookt, gemarineerd of gezouten vlees</p>
+      </ion-item>
+      <ion-item>
+         <p>rauw/ niet volledig gare vis</p>
+      </ion-item>
+      <ion-item>
+        <p>rauw/ niet volledig gare schaal-en schelpdieren</p>
+      </ion-item>
+      <ion-item>
+        <p>gerookte, gemarineerde of gezouten vis</p>
+      </ion-item>
+      <ion-item>
+        <p>voorverpakte/ vacuümverpakte vis en vissalades</p>
+      </ion-item>
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'salmonella'">
+      <ion-item>
+        <p>Salmonella is een infectieziekte, veroorzaakt door een darmbacterie van dieren.</p>
+      </ion-item>
+      <ion-item>
+        <p>rauwe/ongeschilde groenten en fruit</p>
+      </ion-item>
+      <ion-item>
+        <p>rauwe melk</p>
+      </ion-item>
+      <ion-item>
+        <p>rauwe eieren</p>
+      </ion-item>
+      <ion-item>
+        <p>rauwe/niet volledig gaar vlees en vleeswaren</p>
+      </ion-item>
+      <ion-item>
+        <p>niet-voorverpakte vleeswaren</p>
+      </ion-item>
+      <ion-item>
+        <p>artisanaal gerookt, gemarineerd of gezouten vlees</p>
+      </ion-item>
+      <ion-item>
+        <p>rauw/ niet volledig gare vis</p>
+      </ion-item>
+      <ion-item>
+        <p>rauw/ niet volledig gare schaal-en schelpdieren</p>
+      </ion-item>
+      <ion-item>
+        <p>gerookte, gemarineerde of gezouten vis</p>
+      </ion-item>
+      <ion-item>
+        <p>voorverpakte/ vacuümverpakte vis en vissalades</p>
+      </ion-item>
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'zwareMetalen'">
+      <ion-item>
+        <p>zelfgevangen vis, zoals paling</p>
+      </ion-item>
+      <ion-item>
+        <p>roofvissen, zoals haai, zwaardvis, marlijn, tonijn</p>
+      </ion-item>
+      <ion-item>
+        <p>kraanwater uit loden leidingen</p>
+      </ion-item>
+    </ion-list>
+    
+    <ion-list *ngSwitchCase="'overig'">
+      <ion-item>
+        <h2>Vitamine A is een vetoplosbare vitamine. Bij een zwangere vrouw kan het teveel aan vitamine A het risico op afwijkingen bij de foetus veroorzaken.</h2>
+      </ion-item>
+      <ion-item>
+        <p>lever en lever-producten : rijk aan vitamine A</p>
+      </ion-item>
+      <ion-item>
+        <p>alcoholhoudende dranken : risico op schade aan de foetus</p>
+      </ion-item>
+      <ion-item>
+        <p>onzuiver water : risico op infecties</p>
+      </ion-item>
+      <ion-item>
+        <h2>Cafeïne verhoogt het risico op laag geboortegewicht en groeivertraging.</h2>
+      </ion-item>
+      <ion-item>
+        <p>koffie en thee : rijk aan cafeïne</p>
+      </ion-item>
+      <ion-item>
+        <h2>Kunstmatige zoetstoffen hebben een aanvaardbare dagdosis, die overschreden mag worden.</h2>
+      </ion-item>
+      <ion-item>
+        <p> > halve liter lightfrisdranken : verhoogd risico op te veel kunstmatige zoetstoffen</p>
+      </ion-item>
+      <ion-item>
+        <h2>Kinine is in hoge concentratie schadelijk voor de foetus, en kan weeën opwekken.</h2>
+      </ion-item>
+      <ion-item>
+        <p> > 1 glas dranken met kinine, zoals tonic, bitter lemon : risico op schade aan de foetus</p>
+      </ion-item>
+    </ion-list>
 </ion-content>
